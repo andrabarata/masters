@@ -2,6 +2,8 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/barata.mps.businessObjectLanguage/barata.mps.businessObjectLanguage.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/barata.mps.databaseOperationsLanguage/barata.mps.databaseOperationsLanguage.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/barata.mps.rootLanguage/barata.mps.rootLanguage.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/barata.mps.rootLanguage/sandbox/barata.mps.rootLanguage.sandbox.msd" folder="" />
     </projectModules>

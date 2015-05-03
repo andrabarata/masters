@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <root>
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="9,0,26,0" name="barata.mps.businessObjectLanguage.behavior.BehaviorAspectDescriptor" />
+    </file>
+    <file name="Customer_BehaviorDescriptor.java">
+      <unit at="8,0,16,0" name="barata.mps.businessObjectLanguage.behavior.Customer_BehaviorDescriptor" />
+    </file>
+    <file name="Person_BehaviorDescriptor.java">
+      <unit at="8,0,16,0" name="barata.mps.businessObjectLanguage.behavior.Person_BehaviorDescriptor" />
+    </file>
+    <file name="Shop_BehaviorDescriptor.java">
+      <unit at="8,0,16,0" name="barata.mps.businessObjectLanguage.behavior.Shop_BehaviorDescriptor" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="AbstractValue_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="barata.mps.databaseOperationsLanguage.behavior.AbstractValue_BehaviorDescriptor" />
+    </file>
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="9,0,36,0" name="barata.mps.databaseOperationsLanguage.behavior.BehaviorAspectDescriptor" />
+    </file>
+    <file name="BooleanValue_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="barata.mps.databaseOperationsLanguage.behavior.BooleanValue_BehaviorDescriptor" />
+    </file>
+    <file name="DBCommands_BehaviorDescriptor.java">
+      <unit at="10,0,24,0" name="barata.mps.databaseOperationsLanguage.behavior.DBCommands_BehaviorDescriptor" />
+    </file>
+    <file name="DeleteOperation_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="barata.mps.databaseOperationsLanguage.behavior.DeleteOperation_BehaviorDescriptor" />
+    </file>
+    <file name="InsertOperation_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="barata.mps.databaseOperationsLanguage.behavior.InsertOperation_BehaviorDescriptor" />
+    </file>
+    <file name="IntValue_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="barata.mps.databaseOperationsLanguage.behavior.IntValue_BehaviorDescriptor" />
+    </file>
+    <file name="Operation_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="barata.mps.databaseOperationsLanguage.behavior.Operation_BehaviorDescriptor" />
+    </file>
+    <file name="PropertyReference_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="barata.mps.databaseOperationsLanguage.behavior.PropertyReference_BehaviorDescriptor" />
+    </file>
+    <file name="StringValue_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="barata.mps.databaseOperationsLanguage.behavior.StringValue_BehaviorDescriptor" />
+    </file>
+    <file name="UpdateOperation_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="barata.mps.databaseOperationsLanguage.behavior.UpdateOperation_BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:0b365048-3228-4755-8b2e-802ad10ce0ab(barata.mps.databaseOperationsLanguage.behavior)/6352133620898804132">
+    <file name="DBCommands_Behavior.java">
+      <node id="6352133620898804937" at="18,88,19,81" concept="3" />
+      <node id="6352133620898873991" at="21,41,22,72" concept="3" />
+      <node id="6352133620898894053" at="25,631,26,36" concept="0" />
+      <node id="6352133620898899558" at="30,32,31,59" concept="0" />
+      <node id="6352133620898806622" at="34,7,35,22" concept="4" />
+      <node id="6352133620898804132" at="16,0,18,0" concept="6" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6352133620898875510" at="24,40,27,13" concept="1" />
+      <node id="6352133620898898484" at="29,11,32,9" concept="1" />
+      <node id="6352133620898872855" at="24,0,29,0" concept="2" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6352133620898845206" at="22,72,29,11" concept="0" />
+      <node id="6352133620898819557" at="21,0,34,0" concept="2" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6352133620898806830" at="19,81,34,7" concept="0" />
+      <node id="6352133620898804132" at="18,0,37,0" concept="6" trace="call_getNonDupplicates_6352133620898804729#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
+      <scope id="6352133620898804134" at="16,43,16,43" />
+      <scope id="6352133620898875512" at="25,631,26,36" />
+      <scope id="6352133620898898486" at="30,32,31,59" />
+      <scope id="6352133620898804132" at="16,0,18,0">
+        <var name="thisNode" id="6352133620898804132" />
+      </scope>
+      <scope id="6352133620898872856" at="24,40,27,13" />
+      <scope id="6352133620898872855" at="24,0,29,0">
+        <var name="it2" id="6352133620898872855" />
+      </scope>
+      <scope id="6352133620898819558" at="21,41,32,9">
+        <var name="contains" id="6352133620898873994" />
+      </scope>
+      <scope id="6352133620898819557" at="21,0,34,0">
+        <var name="it" id="6352133620898819557" />
+      </scope>
+      <scope id="6352133620898804731" at="18,88,35,22">
+        <var name="operations" id="6352133620898804940" />
+      </scope>
+      <scope id="6352133620898804132" at="18,0,37,0">
+        <var name="thisNode" id="6352133620898804132" />
+      </scope>
+      <unit id="6352133620898872855" at="23,55,29,9" name="barata.mps.databaseOperationsLanguage.behavior.DBCommands_Behavior$2" />
+      <unit id="6352133620898819557" at="20,215,34,5" name="barata.mps.databaseOperationsLanguage.behavior.DBCommands_Behavior$1" />
+      <unit id="6352133620898804132" at="15,0,38,0" name="barata.mps.databaseOperationsLanguage.behavior.DBCommands_Behavior" />
+    </file>
+  </root>
+  <root nodeRef="r:0b365048-3228-4755-8b2e-802ad10ce0ab(barata.mps.databaseOperationsLanguage.behavior)/6352133620899896204">
+    <file name="PropertyReference_Behavior.java">
+      <node id="6352133620899896360" at="13,80,14,336" concept="3" />
+      <node id="6352133620899896370" at="14,336,15,64" concept="3" />
+      <node id="6352133620899896380" at="15,64,16,65" concept="3" />
+      <node id="6352133620899896390" at="16,65,17,44" concept="4" />
+      <node id="6352133620899896396" at="17,44,18,0" concept="5" />
+      <node id="6352133620899896204" at="11,0,13,0" concept="6" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="6352133620899896204" at="13,0,20,0" concept="6" trace="call_generateSetter_6352133620899896357#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <scope id="6352133620899896206" at="11,43,11,43" />
+      <scope id="6352133620899896204" at="11,0,13,0">
+        <var name="thisNode" id="6352133620899896204" />
+      </scope>
+      <scope id="6352133620899896359" at="13,80,18,0">
+        <var name="firstLetter" id="6352133620899896371" />
+        <var name="nodeName" id="6352133620899896361" />
+        <var name="restOfName" id="6352133620899896381" />
+      </scope>
+      <scope id="6352133620899896204" at="13,0,20,0">
+        <var name="thisNode" id="6352133620899896204" />
+      </scope>
+      <unit id="6352133620899896204" at="10,0,21,0" name="barata.mps.databaseOperationsLanguage.behavior.PropertyReference_Behavior" />
+    </file>
+  </root>
+</debug-info>
+

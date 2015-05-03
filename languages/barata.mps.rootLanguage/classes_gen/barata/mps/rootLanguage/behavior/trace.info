@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="Attribute_BehaviorDescriptor.java">
+      <unit at="10,0,21,0" name="barata.mps.rootLanguage.behavior.Attribute_BehaviorDescriptor" />
+    </file>
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="9,0,48,0" name="barata.mps.rootLanguage.behavior.BehaviorAspectDescriptor" />
+    </file>
+    <file name="BooleanType_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="barata.mps.rootLanguage.behavior.BooleanType_BehaviorDescriptor" />
+    </file>
+    <file name="DAOChildMapper_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="barata.mps.rootLanguage.behavior.DAOChildMapper_BehaviorDescriptor" />
+    </file>
+    <file name="DAOEntityMapper_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="barata.mps.rootLanguage.behavior.DAOEntityMapper_BehaviorDescriptor" />
+    </file>
+    <file name="DAOEntity_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="barata.mps.rootLanguage.behavior.DAOEntity_BehaviorDescriptor" />
+    </file>
+    <file name="DAOMapping_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="barata.mps.rootLanguage.behavior.DAOMapping_BehaviorDescriptor" />
+    </file>
+    <file name="DAOObject_BehaviorDescriptor.java">
+      <unit at="6,0,8,0" name="barata.mps.rootLanguage.behavior.DAOObject_BehaviorDescriptor" />
+    </file>
+    <file name="DAOPropertyMapper_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="barata.mps.rootLanguage.behavior.DAOPropertyMapper_BehaviorDescriptor" />
+    </file>
+    <file name="DAOReferenceMapper_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="barata.mps.rootLanguage.behavior.DAOReferenceMapper_BehaviorDescriptor" />
+    </file>
+    <file name="DatabaseSettings_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="barata.mps.rootLanguage.behavior.DatabaseSettings_BehaviorDescriptor" />
+    </file>
+    <file name="EntityType_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="barata.mps.rootLanguage.behavior.EntityType_BehaviorDescriptor" />
+    </file>
+    <file name="Entity_BehaviorDescriptor.java">
+      <unit at="10,0,21,0" name="barata.mps.rootLanguage.behavior.Entity_BehaviorDescriptor" />
+    </file>
+    <file name="IntType_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="barata.mps.rootLanguage.behavior.IntType_BehaviorDescriptor" />
+    </file>
+    <file name="PrimaryType_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="barata.mps.rootLanguage.behavior.PrimaryType_BehaviorDescriptor" />
+    </file>
+    <file name="SchemaCreator_BehaviorDescriptor.java">
+      <unit at="10,0,24,0" name="barata.mps.rootLanguage.behavior.SchemaCreator_BehaviorDescriptor" />
+    </file>
+    <file name="StringType_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="barata.mps.rootLanguage.behavior.StringType_BehaviorDescriptor" />
+    </file>
+    <file name="Type_BehaviorDescriptor.java">
+      <unit at="11,0,25,0" name="barata.mps.rootLanguage.behavior.Type_BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:daa0c6b3-5248-4d20-98c8-af3c07011670(barata.mps.rootLanguage.behavior)/2715870822990233208">
+    <file name="DAOPropertyMapper_Behavior.java">
+      <node id="2715870822990032981" at="13,85,14,335" concept="0" />
+      <node id="2715870822990039756" at="14,335,15,64" concept="0" />
+      <node id="2715870822990068021" at="15,64,16,65" concept="0" />
+      <node id="2715870822990241917" at="16,65,17,36" concept="1" />
+      <node id="2715870822990233208" at="11,0,13,0" concept="2" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="2715870822990233208" at="13,0,19,0" concept="2" trace="call_getMappingCamelName_2715870822990233265#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <scope id="2715870822990233210" at="11,43,11,43" />
+      <scope id="2715870822990233208" at="11,0,13,0">
+        <var name="thisNode" id="2715870822990233208" />
+      </scope>
+      <scope id="2715870822990233267" at="13,85,17,36">
+        <var name="firstLetter" id="2715870822990039759" />
+        <var name="nodeName" id="2715870822990032984" />
+        <var name="restOfName" id="2715870822990068024" />
+      </scope>
+      <scope id="2715870822990233208" at="13,0,19,0">
+        <var name="thisNode" id="2715870822990233208" />
+      </scope>
+      <unit id="2715870822990233208" at="10,0,20,0" name="barata.mps.rootLanguage.behavior.DAOPropertyMapper_Behavior" />
+    </file>
+  </root>
+  <root nodeRef="r:daa0c6b3-5248-4d20-98c8-af3c07011670(barata.mps.rootLanguage.behavior)/7227310691964504579">
+    <file name="Attribute_Behavior.java">
+      <node id="7227310691964504583" at="12,78,13,176" concept="0" />
+      <node id="7227310691964504591" at="13,176,14,64" concept="0" />
+      <node id="7227310691964504601" at="14,64,15,65" concept="0" />
+      <node id="7227310691964504613" at="15,65,16,36" concept="1" />
+      <node id="7227310691964504579" at="10,0,12,0" concept="2" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7227310691964504579" at="12,0,18,0" concept="2" trace="call_getCamelName_7227310691964504580#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <scope id="7227310691964504619" at="10,43,10,43" />
+      <scope id="7227310691964504579" at="10,0,12,0">
+        <var name="thisNode" id="7227310691964504579" />
+      </scope>
+      <scope id="7227310691964504582" at="12,78,16,36">
+        <var name="firstLetter" id="7227310691964504592" />
+        <var name="nodeName" id="7227310691964504584" />
+        <var name="restOfName" id="7227310691964504602" />
+      </scope>
+      <scope id="7227310691964504579" at="12,0,18,0">
+        <var name="thisNode" id="7227310691964504579" />
+      </scope>
+      <unit id="7227310691964504579" at="9,0,19,0" name="barata.mps.rootLanguage.behavior.Attribute_Behavior" />
+    </file>
+  </root>
+</debug-info>
+

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <root>
+    <file name="TypesystemDescriptor.java">
+      <unit at="8,0,20,0" name="barata.mps.rootLanguage.typesystem.TypesystemDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:58df0536-9817-431d-9791-f4f31853d432(barata.mps.rootLanguage.typesystem)/7227310691963685156">
+    <file name="check_DAOEntityMapper_NonTypesystemRule.java">
+      <node id="7227310691963685760" at="27,128,28,99" concept="5" />
+      <node id="7227310691963685776" at="28,99,29,58" concept="5" />
+      <node id="7227310691963685788" at="32,828,33,29" concept="2" />
+      <node id="7227310691963696139" at="38,7,39,60" concept="5" />
+      <node id="7227310691963696139" at="39,60,40,266" concept="5" />
+      <node id="7227310691963696139" at="41,9,42,148" concept="5" />
+      <node id="7227310691963696139" at="42,148,43,71" concept="2" />
+      <node id="7227310691963685156" at="48,46,49,63" concept="6" />
+      <node id="7227310691963685156" at="52,5,53,130" concept="5" />
+      <node id="7227310691963685156" at="53,130,54,45" concept="6" />
+      <node id="7227310691963685156" at="57,30,58,17" concept="6" />
+      <node id="7227310691963685156" at="25,0,27,0" concept="1" trace="check_DAOEntityMapper_NonTypesystemRule#()V" />
+      <node id="7227310691963685786" at="31,35,34,9" concept="3" />
+      <node id="7227310691963685156" at="48,0,51,0" concept="4" trace="getApplicableConceptFQName#()Ljava/lang/String;" />
+      <node id="7227310691963685156" at="57,0,60,0" concept="4" trace="overrides#()Z" />
+      <node id="7227310691963696139" at="40,266,44,9" concept="0" />
+      <node id="7227310691963685156" at="51,68,55,5" concept="0" />
+      <node id="7227310691963685784" at="31,0,36,0" concept="4" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7227310691963685156" at="51,0,57,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="7227310691963685780" at="29,58,36,7" concept="2" />
+      <node id="7227310691963696139" at="37,31,45,7" concept="0" />
+      <node id="7227310691963685806" at="36,7,46,5" concept="3" />
+      <node id="7227310691963685156" at="27,0,48,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="7227310691963685156" at="25,52,25,52" />
+      <scope id="7227310691963685787" at="32,828,33,29" />
+      <scope id="7227310691963685156" at="48,46,49,63" />
+      <scope id="7227310691963685156" at="57,30,58,17" />
+      <scope id="7227310691963685156" at="25,0,27,0" />
+      <scope id="7227310691963696139" at="41,9,43,71">
+        <var name="intentionProvider" id="7227310691963696139" />
+      </scope>
+      <scope id="7227310691963685156" at="52,5,54,45">
+        <var name="b" id="7227310691963685156" />
+      </scope>
+      <scope id="7227310691963685785" at="31,35,34,9" />
+      <scope id="7227310691963685156" at="48,0,51,0" />
+      <scope id="7227310691963685156" at="57,0,60,0" />
+      <scope id="7227310691963685156" at="51,68,55,5" />
+      <scope id="7227310691963685784" at="31,0,36,0">
+        <var name="it" id="7227310691963685784" />
+      </scope>
+      <scope id="7227310691963696139" at="38,7,44,9">
+        <var name="_reporter_2309309498" id="7227310691963696139" />
+        <var name="errorTarget" id="7227310691963696139" />
+      </scope>
+      <scope id="7227310691963685156" at="51,0,57,0">
+        <var name="argument" id="7227310691963685156" />
+      </scope>
+      <scope id="7227310691963685807" at="37,31,45,7" />
+      <scope id="7227310691963685157" at="27,128,46,5">
+        <var name="children" id="7227310691963685761" />
+        <var name="dupplicate" id="7227310691963685777" />
+      </scope>
+      <scope id="7227310691963685156" at="27,0,48,0">
+        <var name="daoEntityMapper" id="7227310691963685156" />
+        <var name="status" id="7227310691963685156" />
+        <var name="typeCheckingContext" id="7227310691963685156" />
+      </scope>
+      <unit id="7227310691963685784" at="30,49,36,5" name="barata.mps.rootLanguage.typesystem.check_DAOEntityMapper_NonTypesystemRule$1" />
+      <unit id="7227310691963685156" at="24,0,61,0" name="barata.mps.rootLanguage.typesystem.check_DAOEntityMapper_NonTypesystemRule" />
+    </file>
+  </root>
+  <root nodeRef="r:58df0536-9817-431d-9791-f4f31853d432(barata.mps.rootLanguage.typesystem)/7227310691963751205">
+    <file name="RemoveDupplicates_QuickFix.java">
+      <node id="7227310691963752083" at="12,44,13,31" concept="6" />
+      <node id="7227310691963754384" at="15,35,16,37" concept="2" />
+      <node id="7227310691963751205" at="10,0,12,0" concept="1" trace="RemoveDupplicates_QuickFix#()V" />
+      <node id="7227310691963751205" at="12,0,15,0" concept="4" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="7227310691963751205" at="15,0,18,0" concept="4" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="7227310691963751205" at="10,39,10,39" />
+      <scope id="7227310691963751763" at="12,44,13,31" />
+      <scope id="7227310691963751207" at="15,35,16,37" />
+      <scope id="7227310691963751205" at="10,0,12,0" />
+      <scope id="7227310691963751205" at="12,0,15,0">
+        <var name="node" id="7227310691963751205" />
+      </scope>
+      <scope id="7227310691963751205" at="15,0,18,0">
+        <var name="node" id="7227310691963751205" />
+      </scope>
+      <unit id="7227310691963751205" at="9,0,19,0" name="barata.mps.rootLanguage.typesystem.RemoveDupplicates_QuickFix" />
+    </file>
+  </root>
+  <root nodeRef="r:58df0536-9817-431d-9791-f4f31853d432(barata.mps.rootLanguage.typesystem)/7227310691963763099">
+    <file name="CheckForProperties_NonTypesystemRule.java">
+      <node id="7227310691961485778" at="32,130,33,367" concept="5" />
+      <node id="7227310691963815193" at="33,367,34,78" concept="5" />
+      <node id="7227310691963850182" at="37,515,38,199" concept="2" />
+      <node id="1706155229850408679" at="43,39,44,197" concept="6" />
+      <node id="7227310691963891930" at="48,38,49,493" concept="6" />
+      <node id="7227310691963929505" at="52,96,53,69" concept="5" />
+      <node id="7227310691963962292" at="56,68,57,38" concept="2" />
+      <node id="7227310691964047203" at="60,9,61,74" concept="2" />
+      <node id="7227310691963912212" at="62,7,63,60" concept="5" />
+      <node id="7227310691963912212" at="63,60,64,259" concept="5" />
+      <node id="7227310691964078228" at="66,5,67,58" concept="5" />
+      <node id="7227310691964115984" at="70,814,71,29" concept="2" />
+      <node id="7227310691964129261" at="76,7,77,60" concept="5" />
+      <node id="7227310691964129261" at="77,60,78,254" concept="5" />
+      <node id="7227310691964129261" at="79,9,80,148" concept="5" />
+      <node id="7227310691964129261" at="80,148,81,71" concept="2" />
+      <node id="7227310691963763099" at="86,46,87,65" concept="6" />
+      <node id="7227310691963763099" at="90,5,91,130" concept="5" />
+      <node id="7227310691963763099" at="91,130,92,45" concept="6" />
+      <node id="7227310691963763099" at="95,30,96,17" concept="6" />
+      <node id="7227310691963763099" at="30,0,32,0" concept="1" trace="CheckForProperties_NonTypesystemRule#()V" />
+      <node id="7227310691963847792" at="36,35,39,9" concept="3" />
+      <node id="1706155229850408677" at="43,0,46,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="7227310691963891735" at="48,0,51,0" concept="4" trace="select#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="7227310691964040759" at="55,38,58,11" concept="3" />
+      <node id="7227310691964100336" at="69,35,72,9" concept="3" />
+      <node id="7227310691963763099" at="86,0,89,0" concept="4" trace="getApplicableConceptFQName#()Ljava/lang/String;" />
+      <node id="7227310691963763099" at="95,0,98,0" concept="4" trace="overrides#()Z" />
+      <node id="7227310691963912212" at="61,74,65,7" concept="0" />
+      <node id="7227310691964129261" at="78,254,82,9" concept="0" />
+      <node id="7227310691963763099" at="89,68,93,5" concept="0" />
+      <node id="7227310691963846575" at="36,0,41,0" concept="4" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="1706155229850406933" at="41,7,46,7" concept="5" />
+      <node id="7227310691963867065" at="46,7,51,7" concept="5" />
+      <node id="7227310691963962201" at="55,0,60,0" concept="4" trace="visit#(Ljava/lang/String;)V" />
+      <node id="7227310691964100195" at="69,0,74,0" concept="4" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="7227310691963763099" at="89,0,95,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="7227310691963838548" at="34,78,41,7" concept="2" />
+      <node id="7227310691963958975" at="53,69,60,9" concept="2" />
+      <node id="7227310691964081560" at="67,58,74,7" concept="2" />
+      <node id="7227310691964129261" at="75,31,83,7" concept="0" />
+      <node id="7227310691964125647" at="74,7,84,5" concept="3" />
+      <node id="7227310691963864330" at="51,7,66,5" concept="3" />
+      <node id="7227310691963763099" at="32,0,86,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="7227310691963763099" at="30,49,30,49" />
+      <scope id="7227310691963847794" at="37,515,38,199" />
+      <scope id="1706155229850408678" at="43,39,44,197" />
+      <scope id="7227310691963891736" at="48,38,49,493" />
+      <scope id="7227310691964040761" at="56,68,57,38" />
+      <scope id="7227310691964100337" at="70,814,71,29" />
+      <scope id="7227310691963763099" at="86,46,87,65" />
+      <scope id="7227310691963763099" at="95,30,96,17" />
+      <scope id="7227310691963763099" at="30,0,32,0" />
+      <scope id="7227310691963912212" at="62,7,64,259">
+        <var name="_reporter_2309309498" id="7227310691963912212" />
+        <var name="errorTarget" id="7227310691963912212" />
+      </scope>
+      <scope id="7227310691964129261" at="79,9,81,71">
+        <var name="intentionProvider" id="7227310691964129261" />
+      </scope>
+      <scope id="7227310691963763099" at="90,5,92,45">
+        <var name="b" id="7227310691963763099" />
+      </scope>
+      <scope id="7227310691963846576" at="36,35,39,9" />
+      <scope id="1706155229850408677" at="43,0,46,0">
+        <var name="it" id="1706155229850408677" />
+      </scope>
+      <scope id="7227310691963891735" at="48,0,51,0">
+        <var name="it" id="7227310691963891735" />
+      </scope>
+      <scope id="7227310691963962202" at="55,38,58,11" />
+      <scope id="7227310691964100196" at="69,35,72,9" />
+      <scope id="7227310691963763099" at="86,0,89,0" />
+      <scope id="7227310691963763099" at="95,0,98,0" />
+      <scope id="7227310691963763099" at="89,68,93,5" />
+      <scope id="7227310691963846575" at="36,0,41,0">
+        <var name="it" id="7227310691963846575" />
+      </scope>
+      <scope id="7227310691963962201" at="55,0,60,0">
+        <var name="it" id="7227310691963962201" />
+      </scope>
+      <scope id="7227310691964100195" at="69,0,74,0">
+        <var name="it" id="7227310691964100195" />
+      </scope>
+      <scope id="7227310691964129261" at="76,7,82,9">
+        <var name="_reporter_2309309498" id="7227310691964129261" />
+        <var name="errorTarget" id="7227310691964129261" />
+      </scope>
+      <scope id="7227310691963763099" at="89,0,95,0">
+        <var name="argument" id="7227310691963763099" />
+      </scope>
+      <scope id="7227310691964125649" at="75,31,83,7" />
+      <scope id="7227310691963864332" at="52,96,65,7">
+        <var name="result" id="7227310691963929508" />
+      </scope>
+      <scope id="7227310691963763100" at="32,130,84,5">
+        <var name="conceptDeclaration" id="7227310691961485781" />
+        <var name="definedNodes" id="7227310691963867068" />
+        <var name="dupplicate" id="7227310691964078231" />
+        <var name="names" id="7227310691963815196" />
+        <var name="nodes" id="1706155229850406936" />
+      </scope>
+      <scope id="7227310691963763099" at="32,0,86,0">
+        <var name="daoPropertyMapper" id="7227310691963763099" />
+        <var name="status" id="7227310691963763099" />
+        <var name="typeCheckingContext" id="7227310691963763099" />
+      </scope>
+      <unit id="1706155229850408677" at="42,135,46,5" name="barata.mps.rootLanguage.typesystem.CheckForProperties_NonTypesystemRule$2" />
+      <unit id="7227310691963891735" at="47,82,51,5" name="barata.mps.rootLanguage.typesystem.CheckForProperties_NonTypesystemRule$3" />
+      <unit id="7227310691963846575" at="35,139,41,5" name="barata.mps.rootLanguage.typesystem.CheckForProperties_NonTypesystemRule$1" />
+      <unit id="7227310691963962201" at="54,48,60,7" name="barata.mps.rootLanguage.typesystem.CheckForProperties_NonTypesystemRule$4" />
+      <unit id="7227310691964100195" at="68,46,74,5" name="barata.mps.rootLanguage.typesystem.CheckForProperties_NonTypesystemRule$5" />
+      <unit id="7227310691963763099" at="29,0,99,0" name="barata.mps.rootLanguage.typesystem.CheckForProperties_NonTypesystemRule" />
+    </file>
+  </root>
+</debug-info>
+
